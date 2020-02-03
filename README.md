@@ -8,11 +8,11 @@
 1️⃣ You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
 ## 4️⃣ Contributors
-<br>
+
 <br>
 ..* David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
-..* Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
 <br>
+..* Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
 <br>
 
 
