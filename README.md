@@ -1,6 +1,6 @@
 # UI
 
-🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline, feel free to add your own flare to it.
+
 
 🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
 
@@ -35,9 +35,9 @@
 
 ## Project Overview
 
-1️⃣ [Trello Board](🚫add link to trello board here)
+1️⃣ [Trello Board](https://trello.com/b/gSagpknA/bw-betterprofessor)
 
-1️⃣ [Product Canvas](🚫add link to product canvas here)
+1️⃣ [Product Canvas](https://docs.google.com/document/d/1dkPL3NC5m2Jwh7y6dq_gP9wYNQ_vcvwiBn1EW4DECVQ/edit?ts=5e34b68b#heading=h.4oicemcbd57)
 
 1️⃣ [UX Design files](🚫add link to design files here) - 🚫 delete if not applicable
 
