@@ -198,3 +198,6 @@ footer {
   align-items: center;
 }
 /*HOME-PAGE LESS Document */
+html {
+  background-color: red;
+}
