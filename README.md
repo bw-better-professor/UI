@@ -10,7 +10,8 @@
 ## 4️⃣ Contributors
 
 🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
-
+..* David Alvarez[LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
+..* Matt Bergeron[LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
 
 
 <br>
