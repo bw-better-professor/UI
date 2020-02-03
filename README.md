@@ -10,7 +10,7 @@
 ## 4️⃣ Contributors
 
 David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/) [GitHub](https://github.com/David-E-Alvarez)
-![alt text](https://avatars3.githubusercontent.com/u/10346209?s=460&v=4 "profile pic")
+![alt text](https://avatars3.githubusercontent.com/u/10346209?s=460&v=4 =100x100)
 <br>
 Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/) [GitHub](https://github.com/bergeronmatt)
 
