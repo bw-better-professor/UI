@@ -8,14 +8,13 @@
 1️⃣ You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
 ## 4️⃣ Contributors
-
-🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
-..* David Alvarez[LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
-..* Matt Bergeron[LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
-
-
 <br>
 <br>
+..* David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
+..* Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
+<br>
+<br>
+
 
 🚫 4️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
 
