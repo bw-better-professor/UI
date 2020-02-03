@@ -9,9 +9,9 @@
 
 ## 4️⃣ Contributors
 
-..*David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
+David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/)
 <br>
-..*Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
+Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/)
 
 
 🚫 4️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
