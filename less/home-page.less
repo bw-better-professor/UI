@@ -11,9 +11,21 @@
     align-items: center;
     /*background-color: orange;*/
    
+	
+	@media @mobile{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+	}
+	
 	.section-content{
 		width:40%;
 		padding: 0 5% 0 0;
+		
+		@media @mobile{
+			width: 60%;
+			margin: 1% 0 0 0;
+		}
 	}
 	
     .words{
@@ -21,11 +33,29 @@
         h1{
             text-align: left;
 			margin: 0 0 5% 0;
+			
+			@media @mobile{
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 32px;
+				display: flex;
+				align-items: center;
+			}
         }
 		
 		p {
 			text-align:left;
 			margin:0 0 5% 0;
+			
+			@media @mobile{
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 21px;
+				display: flex;
+				align-items: center;
+			}
 		}
        
     }
@@ -43,5 +73,9 @@
 
 .phone-img{    
 	width:30%;
+	
+	@media @mobile{
+		width:100%;
+	}
 }
 

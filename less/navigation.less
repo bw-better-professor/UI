@@ -18,6 +18,10 @@
 		justify-content:space-evenly;
 	}
 	
+	@media @mobile{
+		display:none;
+	}
+	
 }
 
 .header-container{
@@ -26,20 +30,44 @@
 	align-items: center;
 	padding: 0 5%;
 	margin:1% 1%;
+	
+	@media @mobile{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	}
 
 	.login{
 		color:@dodger-blue;
-		margin:0 0 20px 50%;
+		margin:0 0 20px 0%;
 		text-decoration:underline;
 		font-weight:bold;
+		
+		@media @mobile{
+			display:none;
+		}
 	}
 	
 	h2{
 		margin:0 0 0 10px;
+		
+		@media @mobile{
+			margin:10px 0 0 0;
+		}
 	}
 	
 	p{
 		margin: 0 0 0 30px;
+		
+		@media @mobile{
+			display:none;
+		}
+	}
+	
+	.logo{
+		@media @mobile{
+			display:none;
+		}
 	}
 	
 
