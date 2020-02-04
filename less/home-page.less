@@ -27,21 +27,17 @@
 			text-align:left;
 			margin:0 0 5% 0;
 		}
-        
+       
     }
-	.btn{
-            /*border: 2px solid black;*/
-            text-align: center;
-            color: white;
-            padding-top: 7px;
-            background-color: #2196F3;
-            margin: 0 10px 20px;
-            cursor: pointer;
-            width: 328px;
-            height: 35px;
-            font-size: 2rem;
-            border-radius: 10px;
-        }
+	
+	.sign-up-btn{
+		.custom-btn(@dodger-blue, white, white);
+	}
+	
+    .log-in-btn{
+    .custom-btn(white, @dodger-blue, @dodger-blue);
+	}
+	
 }
 
 
