@@ -6,39 +6,76 @@
 }
 .divContainer{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row-reverse;
+	justify-content:center;
+    align-items: center;
     /*background-color: orange;*/
-    .image{
-        
-        
-    }
+   
+	
+	@media @mobile{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+	}
+	
+	.section-content{
+		width:40%;
+		padding: 0 5% 0 0;
+		
+		@media @mobile{
+			width: 60%;
+			margin: 1% 0 0 0;
+		}
+	}
+	
     .words{
-        /*border: 3px red solid;*/
-        
-        /*background-color: yellow;*/
+		
         h1{
-            text-align: center;
+            text-align: left;
+			margin: 0 0 5% 0;
+			
+			@media @mobile{
+				font-style: normal;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 32px;
+				display: flex;
+				align-items: center;
+			}
         }
-        .btn{
-            /*border: 2px solid black;*/
-            text-align: center;
-            color: white;
-            padding-top: 7px;
-            background-color: #2196F3;
-            margin: 0 10px 20px;
-            cursor: pointer;
-            width: 200px;
-            height: 35px;
-            font-size: 2rem;
-            border-radius: 10px;
-        }
+		
+		p {
+			text-align:left;
+			margin:0 0 5% 0;
+			
+			@media @mobile{
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 21px;
+				display: flex;
+				align-items: center;
+			}
+		}
+       
     }
+	
+	.sign-up-btn{
+		.custom-btn(@dodger-blue, white, white);
+	}
+	
+    .log-in-btn{
+    .custom-btn(white, @dodger-blue, @dodger-blue);
+	}
+	
 }
 
 
-img{    
-    width: 500px;
-    height: 350px;
+.phone-img{    
+	width:30%;
+	
+	@media @mobile{
+		width:100%;
+	}
 }
 
