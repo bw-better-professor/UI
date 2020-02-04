@@ -139,27 +139,34 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 h1 {
   font-size: 3.5rem;
 }
 h2 {
   font-size: 3.2rem;
+  color: #2196F3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
 }
 h3 {
   font-size: 2.8rem;
 }
 p {
   font-size: 1.6rem;
-  line-height: 1.4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
 }
 a {
   text-decoration: none;
@@ -202,7 +209,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   padding: 0 5%;
-  margin: 2% 2%;
+  margin: 1% 1%;
 }
 .header-container .login {
   color: #2196F3;
@@ -215,4 +222,8 @@ footer {
 }
 .header-container p {
   margin: 0 0 0 30px;
+}
+.signup {
+  text-decoration: underline;
+  font-weight: bold;
 }
