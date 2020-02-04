@@ -192,18 +192,6 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
-/* FOOTER LESS Document */
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*HOME-PAGE LESS Document */
 .header-container {
   display: flex;
   justify-content: flex-start;
@@ -227,3 +215,15 @@ footer {
   text-decoration: underline;
   font-weight: bold;
 }
+/* FOOTER LESS Document */
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*HOME-PAGE LESS Document */
