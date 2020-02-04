@@ -149,7 +149,10 @@ h5 {
   font-family: 'Roboto Slab', serif;
 }
 h1 {
-  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 79px;
 }
 h2 {
   font-size: 3.2rem;
@@ -234,17 +237,16 @@ footer {
 .divContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   /*background-color: orange;*/
 }
 .divContainer .words {
-  /*border: 3px red solid;*/
-  /*background-color: yellow;*/
+  width: 50%;
 }
 .divContainer .words h1 {
   text-align: center;
 }
-.divContainer .words .btn {
+.divContainer .btn {
   /*border: 2px solid black;*/
   text-align: center;
   color: white;
@@ -257,7 +259,7 @@ footer {
   font-size: 2rem;
   border-radius: 10px;
 }
-img {
+.phone-img {
   width: 500px;
   height: 350px;
 }
