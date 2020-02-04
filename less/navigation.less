@@ -6,14 +6,11 @@
 .navigation{
 	
 	display:flex;
-	flex-direction:column;
+	justify-content: flex-end;
 	align-items:center;
-	
+	background-color: @tiber;
 	margin:0 0 10px 0;
-	
-	h2{
-		margin:20px 0;
-	}
+	height: 46px;
 	
 	ul{
 		width:50%;
@@ -22,3 +19,33 @@
 	}
 	
 }
+
+.header-container{
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 5%;
+	margin:1% 1%;
+
+	.login{
+		color:@dodger-blue;
+		margin:0 0 20px 50%;
+		text-decoration:underline;
+		font-weight:bold;
+	}
+	
+	h2{
+		margin:0 0 0 10px;
+	}
+	
+	p{
+		margin: 0 0 0 30px;
+	}
+	
+
+}
+
+	.signup{
+		text-decoration:underline;
+		font-weight:bold;
+	}
