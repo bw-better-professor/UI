@@ -236,15 +236,22 @@ footer {
 }
 .divContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
   /*background-color: orange;*/
 }
-.divContainer .words {
-  width: 50%;
+.divContainer .section-content {
+  width: 40%;
+  padding: 0 5% 0 0;
 }
 .divContainer .words h1 {
-  text-align: center;
+  text-align: left;
+  margin: 0 0 5% 0;
+}
+.divContainer .words p {
+  text-align: left;
+  margin: 0 0 5% 0;
 }
 .divContainer .btn {
   /*border: 2px solid black;*/
@@ -254,12 +261,11 @@ footer {
   background-color: #2196F3;
   margin: 0 10px 20px;
   cursor: pointer;
-  width: 200px;
+  width: 328px;
   height: 35px;
   font-size: 2rem;
   border-radius: 10px;
 }
 .phone-img {
-  width: 500px;
-  height: 350px;
+  width: 30%;
 }
