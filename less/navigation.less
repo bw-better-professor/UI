@@ -18,6 +18,10 @@
 		justify-content:space-evenly;
 	}
 	
+	@media @mobile{
+		display:none;
+	}
+	
 }
 
 .header-container{
@@ -40,6 +44,20 @@
 	
 	p{
 		margin: 0 0 0 30px;
+	}
+	
+	@media @mobile{
+		
+			display:flex;
+			justify-content:center;
+		
+		.logo, p, .login{
+			display:none;
+		}
+		
+		h2{
+			font-size:30px;
+		}
 	}
 	
 
