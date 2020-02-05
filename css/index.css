@@ -149,10 +149,7 @@ h5 {
   font-family: 'Roboto Slab', serif;
 }
 h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 79px;
+  font-size: 3.5rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -161,17 +158,6 @@ h2 {
   font-weight: bold;
   font-size: 48px;
   line-height: 63px;
-}
-@media (max-width:480px) {
-  h2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
 }
 h3 {
   font-size: 2.8rem;
@@ -206,11 +192,6 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width:480px) {
-  .navigation {
-    display: none;
-  }
-}
 .header-container {
   display: flex;
   justify-content: flex-start;
@@ -218,44 +199,17 @@ a {
   padding: 0 5%;
   margin: 1% 1%;
 }
-@media (max-width:480px) {
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
 .header-container .login {
   color: #2196F3;
-  margin: 0 0 20px 63%;
+  margin: 0 0 20px 50%;
   text-decoration: underline;
   font-weight: bold;
-}
-@media (max-width:480px) {
-  .header-container .login {
-    display: none;
-  }
 }
 .header-container h2 {
   margin: 0 0 0 10px;
 }
-@media (max-width:480px) {
-  .header-container h2 {
-    margin: 10px 0 0 0;
-  }
-}
 .header-container p {
   margin: 0 0 0 30px;
-}
-@media (max-width:480px) {
-  .header-container p {
-    display: none;
-  }
-}
-@media (max-width:480px) {
-  .header-container .logo {
-    display: none;
-  }
 }
 .signup {
   text-decoration: underline;
@@ -273,107 +227,25 @@ footer {
   align-items: center;
 }
 /*HOME-PAGE LESS Document */
-.main-content {
-  margin-top: 30px;
-  /*border: solid 5px black;*/
+/* REVIEWS LESS Document */
+section {
+  /*border: black 5px solid;*/
 }
-.divContainer {
+section .tableContainer {
+  /*border: red 5px solid;*/
+}
+section .tableContainer h1 {
+  text-align: center;
+}
+section .tableContainer .tableDiv {
+  font-size: 20px;
+  margin-top: 20px;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
-  /*background-color: orange;*/
 }
-@media (max-width:480px) {
-  .divContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-.divContainer .section-content {
-  width: 40%;
-  padding: 0 5% 0 0;
-}
-@media (max-width:480px) {
-  .divContainer .section-content {
-    width: 60%;
-    margin: 1% 0 0 0;
-  }
-}
-.divContainer .words h1 {
-  text-align: left;
-  margin: 0 0 5% 0;
-}
-@media (max-width:480px) {
-  .divContainer .words h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-  }
-}
-.divContainer .words p {
-  text-align: left;
-  margin: 0 0 5% 0;
-}
-@media (max-width:480px) {
-  .divContainer .words p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-  }
-}
-.divContainer .sign-up-btn {
-  display: block;
-  background-color: #2196F3;
-  color: white;
-  border: 0.5px solid;
-  border-color: white;
-  border-radius: 10px;
-  padding-top: 7px;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  width: 328px;
-  height: 35px;
-  font-size: 2rem;
-  text-align: center;
-}
-@media (max-width:480px) {
-  .divContainer .sign-up-btn {
-    width: 296px;
-  }
-}
-.divContainer .log-in-btn {
-  display: block;
-  background-color: white;
-  color: #2196F3;
-  border: 0.5px solid;
-  border-color: #2196F3;
-  border-radius: 10px;
-  padding-top: 7px;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  width: 328px;
-  height: 35px;
-  font-size: 2rem;
-  text-align: center;
-}
-@media (max-width:480px) {
-  .divContainer .log-in-btn {
-    width: 296px;
-  }
-}
-.phone-img {
-  width: 30%;
-}
-@media (max-width:480px) {
-  .phone-img {
-    width: 100%;
-  }
+section .tableContainer .tableDiv table,
+section .tableContainer .tableDiv th,
+section .tableContainer .tableDiv td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
