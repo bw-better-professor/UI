@@ -252,6 +252,9 @@ footer {
   justify-content: center;
   padding: 5%;
 }
+.main-content .section-content {
+  padding: 0 2%;
+}
 .main-content h1 {
   font-style: normal;
   font-weight: bold;
