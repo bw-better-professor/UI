@@ -203,12 +203,57 @@ a {
   align-items: center;
   padding: 0 5%;
   margin: 1% 1%;
+  /* Dropdown Button */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+}
+.header-container .dropbtn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+  border: none;
+}
+.header-container .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.header-container .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2196F3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header-container .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.header-container .dropdown-content a:hover {
+  background-color: #2196F3;
+}
+.header-container .dropdown:hover .dropdown-content {
+  display: block;
+}
+.header-container .dropdown:hover .dropbtn {
+  background-color: #2196F3;
+}
+@media (min-width: 481px) {
+  .header-container .dropdown {
+    display: none;
+  }
 }
 .header-container .login {
   color: #2196F3;
   margin: 0 0 20px 65%;
-  text-decoration: underline;
-  font-weight: bold;
 }
 .header-container h2 {
   margin: 0 0 0 10px;
@@ -219,6 +264,7 @@ a {
 @media (max-width:480px) {
   .header-container {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
   }
   .header-container .logo,
@@ -229,74 +275,6 @@ a {
   .header-container h2 {
     font-size: 30px;
   }
-}
-.signup {
-  text-decoration: underline;
-  font-weight: bold;
-}
-/* HOW IT WORKS LESS Document */
-.how-main {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  padding: 5%;
-}
-.how-main h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 79px;
-  display: flex;
-  align-items: center;
-}
-.how-main p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-}
-.how-main .chart {
-  width: 40%;
-  height: 40%;
-}
-@media (max-width:480px) {
-  .how-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5%;
-  }
-  .how-main .chart {
-    width: 100%;
-  }
-  .how-main h1 {
-    font-size: 24px;
-  }
-  .how-main p {
-    font-size: 16px;
-  }
-}
-/* REVIEWS LESS Document */
-section {
-  /*border: black 5px solid;*/
-}
-section .tableContainer {
-  /*border: red 5px solid;*/
-}
-section .tableContainer h1 {
-  text-align: center;
-}
-section .tableContainer .tableDiv {
-  font-size: 20px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-section .tableContainer .tableDiv table,
-section .tableContainer .tableDiv th,
-section .tableContainer .tableDiv td {
-  border: 1px solid black;
-  border-collapse: collapse;
 }
 /*HOME-PAGE LESS Document */
 .main-content {
