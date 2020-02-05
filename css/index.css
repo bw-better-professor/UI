@@ -309,7 +309,6 @@ section .tableContainer .tableDiv td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-/* MEET THE TEAM LESS Document */
 /*HOME-PAGE LESS Document */
 .main-content {
   display: flex;
