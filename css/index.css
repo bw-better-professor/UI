@@ -234,17 +234,6 @@ a {
   text-decoration: underline;
   font-weight: bold;
 }
-/* FOOTER LESS Document */
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /* HOW IT WORKS LESS Document */
 .how-main {
   display: flex;
@@ -396,3 +385,79 @@ section .tableContainer .tableDiv td {
   width: 50%;
   height: 50%;
 }
+/* FOOTER LESS Document */
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* HOW IT WORKS LESS Document */
+.how-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 5%;
+}
+.how-main h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+}
+.how-main p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.how-main .chart {
+  width: 40%;
+  height: 40%;
+}
+@media (max-width:480px) {
+  .how-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  }
+  .how-main .chart {
+    width: 100%;
+  }
+  .how-main h1 {
+    font-size: 24px;
+  }
+  .how-main p {
+    font-size: 16px;
+  }
+}
+/* REVIEWS LESS Document */
+section {
+  /*border: black 5px solid;*/
+}
+section .tableContainer {
+  /*border: red 5px solid;*/
+}
+section .tableContainer h1 {
+  text-align: center;
+}
+section .tableContainer .tableDiv {
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+section .tableContainer .tableDiv table,
+section .tableContainer .tableDiv th,
+section .tableContainer .tableDiv td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* MEET THE TEAM LESS Document */
