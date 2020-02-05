@@ -177,6 +177,10 @@ a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+ul .current {
+  text-decoration: underline;
+  font-weight: bold;
+}
 .container {
   max-width: 1400px;
   width: 100%;
