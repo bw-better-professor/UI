@@ -282,6 +282,10 @@ footer {
   margin: 2% 0;
 }
 @media (max-width:480px) {
+  .main-content .sign-up-btn {
+    width: 296px;
+    height: 46px;
+  }
 }
 .main-content .log-in-btn {
   background-color: white;
@@ -299,6 +303,10 @@ footer {
   margin: 2% 0;
 }
 @media (max-width:480px) {
+  .main-content .log-in-btn {
+    width: 296px;
+    height: 46px;
+  }
 }
 @media (max-width:480px) {
   .main-content {
