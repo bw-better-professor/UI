@@ -18,6 +18,10 @@
 		justify-content:space-evenly;
 	}
 	
+	@media @mobile{
+		display:none;
+	}
+	
 }
 
 .header-container{
@@ -29,7 +33,7 @@
 
 	.login{
 		color:@dodger-blue;
-		margin:0 0 20px 50%;
+		margin:0 0 20px 65%;
 		text-decoration:underline;
 		font-weight:bold;
 	}
@@ -40,6 +44,20 @@
 	
 	p{
 		margin: 0 0 0 30px;
+	}
+	
+	@media @mobile{
+		
+			display:flex;
+			justify-content:center;
+		
+		.logo, p, .login{
+			display:none;
+		}
+		
+		h2{
+			font-size:30px;
+		}
 	}
 	
 
