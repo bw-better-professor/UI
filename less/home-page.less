@@ -1,2 +1,41 @@
 /*HOME-PAGE LESS Document */
 
+
+.main-content{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:center;
+	padding: 5%;
+	
+	h1{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		line-height: 79px;
+		display: flex;
+		align-items: center;
+	}
+	
+	p{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 32px;
+	}
+	
+	.sign-up-btn{
+		.custom-btn(@dodger-blue, white, white);
+	}
+	
+	.log-in-btn{
+		.custom-btn(white, @dodger-blue, @dodger-blue);
+	}
+	
+}
+
+
+
+.phone-img{
+	width:50%;
+	height:50%;
+}

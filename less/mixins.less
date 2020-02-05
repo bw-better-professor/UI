@@ -1,2 +1,19 @@
 /* MIXINS LESS Document */
 
+//Button Mixin
+
+.custom-btn(@bg-color, @font-color, @border-color){
+	background-color: @bg-color;
+	color: @font-color;
+	border: solid .5px;
+	border-color: @border-color;
+	display:flex;	
+	align-items:center;
+	justify-content:center;
+	cursor: pointer;
+	width: 448px;
+	height: 56px;
+	font-size: 2rem;
+	border-radius: 10px;
+	margin:2% 0;
+}
