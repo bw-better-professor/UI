@@ -173,10 +173,6 @@ a {
   font-size: 1.5rem;
   color: white;
 }
-a:hover {
-  text-decoration: underline;
-  font-weight: bold;
-}
 .container {
   max-width: 1400px;
   width: 100%;
