@@ -281,3 +281,28 @@ footer {
   width: 50%;
   height: 50%;
 }
+/* HOW IT WORKS LESS Document */
+.how-main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 5%;
+}
+.how-main h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+}
+.how-main p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.how-main .chart {
+  width: 40%;
+  height: 40%;
+}
