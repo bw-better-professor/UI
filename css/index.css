@@ -377,6 +377,12 @@ section h1 {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width:480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container .box {
   width: 50%;
   padding-right: 50px;
@@ -384,12 +390,31 @@ section h1 {
   margin-bottom: 50px;
   /*border: purple 2px solid;*/
 }
+@media (max-width:480px) {
+  .container .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .container .box h3 {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
   /*border: 2px yellow solid;*/
   margin-bottom: 10px;
+}
+@media (max-width:480px) {
+  .container .box h3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width:480px) {
+  .container .box h3 span {
+    display: flex;
+    flex-direction: row;
+  }
 }
 .container .box h3 span i {
   color: #2196F3;

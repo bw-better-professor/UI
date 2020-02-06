@@ -11,7 +11,16 @@ section{
     /*border: 2px red solid;*/   
     display: flex;
     flex-wrap: wrap;
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
+    }
     .box{
+        @media @mobile{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
         width: 50%;
         padding-right: 50px;
         padding-left: 50px;
@@ -22,7 +31,15 @@ section{
             font-weight: bold;
             /*border: 2px yellow solid;*/
             margin-bottom: 10px;
+            @media @mobile{
+                display: flex;
+                flex-direction: column;
+            }
             span{
+                @media @mobile{
+                    display: flex;
+                    flex-direction: row;
+                }
                 i{
                     color: @dodger-blue;
                 }
