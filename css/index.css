@@ -363,28 +363,43 @@ a {
     font-size: 16px;
   }
 }
-/* REVIEWS LESS Document */
 section {
-  /*border: black 5px solid;*/
+  /*border: 2px black solid;*/
 }
-section .tableContainer {
-  /*border: red 5px solid;*/
-}
-section .tableContainer h1 {
+section h1 {
   text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
-section .tableContainer .tableDiv {
-  font-size: 50px;
-  color: #2196F3;
-  margin-top: 20px;
+.container {
+  /*border: 2px red solid;*/
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
-section .tableContainer .tableDiv table,
-section .tableContainer .tableDiv th,
-section .tableContainer .tableDiv td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.container .box {
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  /*border: purple 2px solid;*/
+}
+.container .box h3 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  /*border: 2px yellow solid;*/
+  margin-bottom: 10px;
+}
+.container .box h3 span i {
+  color: #2196F3;
+}
+.container .box h4 {
+  font-size: small;
+  margin-bottom: 30px;
+}
+.container .box p {
+  font-size: large;
 }
 /* MEET THE TEAM LESS Document */
 .cardsContainer {
