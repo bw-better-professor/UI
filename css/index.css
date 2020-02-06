@@ -393,6 +393,13 @@ section .tableContainer .tableDiv td {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width:480px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .card {
   margin-left: 50px;
   width: 25%;
