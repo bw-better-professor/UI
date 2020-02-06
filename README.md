@@ -1,6 +1,6 @@
 # UI
 
-# 1️⃣ Better Professor
+# Better Professor
 
 1️⃣ You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
