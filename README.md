@@ -28,23 +28,9 @@ Better professor helps Professors stay organinized by keeping track of their stu
 - As a user I want to be able to create an automated messages to be sent to myself or a student I’m mentoring. 
 - A message should include a send date and time and a long text field that enables the message curator the ability to send a custom message.
 
-
-
-🚫List the rest of the front end features and libraries in the same format as the framework above.
-
 #### Front end deployed to `React`
 
 #### [Back end](https://betterprofessor25.herokuapp.com/) built using: Heroku
-
-
-
-
-
-
-
-
-
-
 
 ## Issue/Bug Request
    
@@ -78,5 +64,5 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](🚫_link to your backend readme here_) for details on the backend of our project.
+See [Backend Documentation](https://github.com/bw-better-professor/backend/blob/master/README.md) for details on the backend of our project.
 
