@@ -414,6 +414,7 @@ section .tableContainer .tableDiv td {
   .card {
     width: auto;
     margin: auto;
+    border: none;
   }
 }
 .card h3 {
