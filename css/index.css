@@ -501,13 +501,11 @@ section h1 {
   padding: 10px;
   border-radius: 5px;
   min-height: 300px;
-  border: 2px #2196F3 solid;
 }
 @media (max-width:480px) {
   .card {
     width: auto;
     margin: auto;
-    border: none;
   }
 }
 .card h3 {
