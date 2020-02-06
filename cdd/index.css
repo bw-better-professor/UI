@@ -301,7 +301,6 @@ ul .current {
   line-height: 79px;
   display: flex;
   align-items: center;
-  margin-bottom: 5%;
 }
 .main-content p {
   font-style: normal;
@@ -323,7 +322,6 @@ ul .current {
   font-size: 2rem;
   border-radius: 10px;
   margin: 2% 0;
-  margin: 5% 0;
 }
 @media (max-width:480px) {
   .main-content .sign-up-btn {
@@ -387,7 +385,6 @@ ul .current {
   line-height: 79px;
   display: flex;
   align-items: center;
-  margin-bottom: 5%;
 }
 .how-main p {
   font-style: normal;
