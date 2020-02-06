@@ -1,10 +1,9 @@
 # UI
 
 # Better Professor
+ You can find the deployed project at [Better Professor](https://bw-better-professor.github.io/UI/).
 
-1️⃣ You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
-
-## 4️⃣ Contributors
+## Contributors
 
 David Alvarez [LinkedIn](https://www.linkedin.com/in/david-e-alvarez/) [GitHub](https://github.com/David-E-Alvarez)
 <br>
@@ -15,14 +14,14 @@ Matt Bergeron [LinkedIn](https://www.linkedin.com/in/matthew-bergeron-803888132/
 
 ## Project Overview
 
-1️⃣ [Trello Board](https://trello.com/b/gSagpknA/bw-betterprofessor)
+[Trello Board](https://trello.com/b/gSagpknA/bw-betterprofessor)
 
-1️⃣ [Product Canvas](https://docs.google.com/document/d/1dkPL3NC5m2Jwh7y6dq_gP9wYNQ_vcvwiBn1EW4DECVQ/edit?ts=5e34b68b#heading=h.4oicemcbd57)
+[Product Canvas](https://docs.google.com/document/d/1dkPL3NC5m2Jwh7y6dq_gP9wYNQ_vcvwiBn1EW4DECVQ/edit?ts=5e34b68b#heading=h.4oicemcbd57)
 
 Better professor helps Professors stay organinized by keeping track of their students' progress. 
 
 
-### 4️⃣ Key Features
+### Key Features
 
 - As a user I want to login and see a list of students I mentor so I can add to or remove from the list. 
 - I also want to click on a student and see a list of their important projects or research papers I am mentoring on.  
@@ -33,9 +32,9 @@ Better professor helps Professors stay organinized by keeping track of their stu
 
 🚫List the rest of the front end features and libraries in the same format as the framework above.
 
-#### Front end deployed to `🚫insert service here`
+#### Front end deployed to `React`
 
-#### [Back end](🚫link to back end repo here) built using:
+#### [Back end](🚫link to back end repo here) built using: 
 
 
 
