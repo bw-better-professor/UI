@@ -1,2 +1,51 @@
 /* MEET THE TEAM LESS Document */
+.cardsContainer{
+    /*border: 5px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+}
+.card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 300px;
+    border: 2px @dodger-blue solid;
+    @media @mobile{
+        width: auto;
+        margin: auto;
+        border: none;
+    }
+    h3{
+        text-align: center;
+    }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{
+                margin: auto;
+            }
+            h4{
+                text-align: center;
+                font-size: large;
+                color: @dodger-blue;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: medium;
+                text-align: center;
+            }
+        }
+       
+    
+}

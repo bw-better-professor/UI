@@ -427,7 +427,8 @@ section .tableContainer h1 {
   text-align: center;
 }
 section .tableContainer .tableDiv {
-  font-size: 20px;
+  font-size: 50px;
+  color: #2196F3;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -439,3 +440,54 @@ section .tableContainer .tableDiv td {
   border-collapse: collapse;
 }
 /* MEET THE TEAM LESS Document */
+.cardsContainer {
+  /*border: 5px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width:480px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 25%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 300px;
+  border: 2px #2196F3 solid;
+}
+@media (max-width:480px) {
+  .card {
+    width: auto;
+    margin: auto;
+    border: none;
+  }
+}
+.card h3 {
+  text-align: center;
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card .content img {
+  margin: auto;
+}
+.card .content h4 {
+  text-align: center;
+  font-size: large;
+  color: #2196F3;
+  margin-bottom: 10px;
+}
+.card .content p {
+  font-size: medium;
+  text-align: center;
+}
