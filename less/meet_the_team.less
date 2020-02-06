@@ -1,5 +1,32 @@
 /* MEET THE TEAM LESS Document */
-
-h1{
-    text-decoration: underline;
+.cardsContainer{
+    /*border: 5px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin-left: 50px;
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 300px;
+    border: 2px @dodger-blue solid;
+    .row{
+        display: flex;
+        .content{
+            h4{
+                font-size: large;
+                color: @dodger-blue;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: medium;
+            }
+        }
+        .column {
+            flex: 1;
+          }
+    }
 }
