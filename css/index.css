@@ -534,6 +534,9 @@ section h1 {
   flex-direction: column;
   justify-content: center;
 }
+.card .content img {
+  margin: 3% auto;
+}
 .card .content h4 {
   text-align: center;
   font-size: large;
