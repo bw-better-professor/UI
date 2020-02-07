@@ -437,9 +437,10 @@ section {
 }
 section h1 {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 50px 0 100px 0;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  font-size: 40px;
 }
 .container {
   /*border: 2px red solid;*/
@@ -533,7 +534,14 @@ section h1 {
   justify-content: center;
 }
 .card .content img {
-  margin: auto;
+  margin: 3% auto;
+  transition: filter 0.5s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.card .content img:hover {
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
 }
 .card .content h4 {
   text-align: center;
