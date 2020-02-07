@@ -287,6 +287,11 @@ ul .current {
   .header-container .login {
     display: none;
   }
+  .header-container .logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .header-container h2 {
     font-size: 30px;
   }
